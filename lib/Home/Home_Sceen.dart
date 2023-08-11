@@ -39,7 +39,7 @@ class _HomeSceenState extends State<HomeSceen> {
               icon: Icon(
                 LineIcons.facebookMessenger,
                 color: Theme.of(context).cardColor,
-                size: 34.5,
+                size: 35,
               ),
               onPressed: () {
                 Navigator.of(context).push(
