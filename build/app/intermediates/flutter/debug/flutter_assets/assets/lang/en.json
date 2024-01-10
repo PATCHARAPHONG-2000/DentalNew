@@ -9,6 +9,7 @@
         "Public_Relations": "Public Relations",
         "Press_release": "Press Release",
         "knowledge_news": "knowledge News",
+        "knowledge": "knowledge",
         "knowledge_link": "knowledge Link",
         "General": "General",
         "Theme": "Theme",
@@ -17,8 +18,8 @@
         "LanguageDetel": "Change language",
         "Details": "Details :",
         "Address": "Address",
-        "Time": "Business Hours :",
-        "Time_Out": "Holiday :",
+        "Time": "Open :",
+        "Time_Out": "Closs :",
         "View_more": "View More",
         "Category": "Category",
         "Location": "Location",
@@ -26,7 +27,10 @@
         "Help": "Help & Support",
         "HelpTile":"Help center and support",
         "Manual":"Manual",
-        "ManualTitle":"Application Manual"
+        "ManualTitle":"Application Manual",
+        "call": "Call",
+        "chat": "Chat Bot"
+
     },
     "DB": {
         "Dental_Benefits": "Dental Benefits",

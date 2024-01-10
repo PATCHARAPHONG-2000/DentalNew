@@ -6,7 +6,6 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:easy_pdf_viewer/easy_pdf_viewer.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:line_icons/line_icon.dart';
 import 'package:line_icons/line_icons.dart';
 import '../Firebase/FireBase.dart';
 import '../Firebase/Knowledge.dart';
@@ -45,7 +44,7 @@ class _HomeSceenState extends State<HomeSceen> {
                 Navigator.of(context).push(
                   MaterialPageRoute(
                     builder: (BuildContext context) {
-                      return ChatScreen();
+                      return Chatbot();
                     },
                   ),
                 );

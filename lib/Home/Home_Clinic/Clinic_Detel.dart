@@ -46,6 +46,12 @@ class _Clinic_DetelState extends State<Clinic_Detel> {
       appBar: AppBar(
         title: Text(clini.name),
         backgroundColor: Theme.of(context).primaryColor,
+        leading: IconButton(
+          icon: Icon(LineIcons.chevronCircleLeft),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 10),

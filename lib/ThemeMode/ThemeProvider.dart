@@ -7,4 +7,6 @@ class ThemeProvider extends ChangeNotifier {
     isDarkTheme = !isDarkTheme;
     notifyListeners();
   }
+
+  void setDarkTheme(bool savedTheme) {}
 }

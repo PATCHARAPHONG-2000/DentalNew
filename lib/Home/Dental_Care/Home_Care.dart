@@ -1,5 +1,6 @@
 import 'package:dental_news/Firebase/Data_Care.dart';
 import 'package:dental_news/Home/Dental_Care/Care_Detel.dart';
+import 'package:dental_news/utils/utils.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -38,47 +39,44 @@ class _Home_CareState extends State<Home_Care> {
                 children: [
                   InkWell(
                     child: Container(
-                      height: 200,
+                      height: 220,
                       width: 300,
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          fit: BoxFit.fill,
+                          fit: BoxFit.cover,
                           image: NetworkImage(
                             careData.image,
                           ),
                         ),
-                        color: Theme.of(context).scaffoldBackgroundColor,
-                        borderRadius: const BorderRadius.only(
-                          bottomLeft: Radius.circular(30),
-                          bottomRight: Radius.circular(30),
-                          topLeft: Radius.circular(30),
-                          topRight: Radius.circular(30),
-                        ),
+                        borderRadius: BorderRadius.circular(20),
                         border: Border.all(
-                            width: 3, color: Theme.of(context).hoverColor),
+                          width: 1.0,
+                          color: color.grey,
+                        ),
                       ),
                       child: Stack(
                         alignment: Alignment.bottomCenter,
                         children: [
                           Container(
-                            height: 40,
+                            height: 45,
                             width: 400,
-                            decoration: const BoxDecoration(
-                              color: Color.fromARGB(83, 153, 152, 152),
-                              borderRadius: BorderRadius.only(
+                            decoration: BoxDecoration(
+                              color: color.blue,
+                              borderRadius: const BorderRadius.only(
                                 topRight: Radius.circular(5),
                                 topLeft: Radius.circular(5),
-                                bottomLeft: Radius.circular(27),
-                                bottomRight: Radius.circular(27),
+                                bottomLeft: Radius.circular(17),
+                                bottomRight: Radius.circular(17),
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsets.only(top: 5, left: 10),
+                              padding:
+                                  const EdgeInsets.only(left: 7.0, top: 4.0),
                               child: Text(
                                 careData.name,
                                 style: GoogleFonts.k2d(
-                                  color: const Color(0xff38023d),
-                                  fontSize: 13.0,
+                                  color: color.white,
+                                  fontSize: 15.0,
                                   fontWeight: FontWeight.w900,
                                 ),
                               ),
@@ -125,9 +123,9 @@ class _Home_CareState extends State<Home_Care> {
               ),
             )
           : GridView.extent(
-              childAspectRatio: 0.75,
-              crossAxisSpacing: 0.1,
-              mainAxisSpacing: 0.5,
+              childAspectRatio: 0.70,
+              crossAxisSpacing: 0.5,
+              mainAxisSpacing: 0.1,
               maxCrossAxisExtent: 350,
               children: widgests,
             ),

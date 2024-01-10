@@ -32,9 +32,12 @@ class _ImageSlideState extends State<ImageSlide> {
       providers.add(provider);
     }
 
-    setState(() {
-      imageProviders = providers;
-    });
+    if (mounted) {
+      // Check if the widget is still mounted before calling setState
+      setState(() {
+        imageProviders = providers;
+      });
+    }
   }
 
   @override

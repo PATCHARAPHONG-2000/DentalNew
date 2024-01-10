@@ -61,11 +61,12 @@ class _Home_ClinicState extends State<Home_Clinic> {
         .orderBy('name')
         .get();
 
-    setState(() {
-      _allResults = data.docs;
-    });
-
-    searchResultList();
+    if (mounted) {
+      setState(() {
+        _allResults = data.docs;
+        searchResultList();
+      });
+    }
   }
 
   @override
@@ -97,10 +98,13 @@ class _Home_ClinicState extends State<Home_Clinic> {
 
   Future<void> clinicData() async {
     List<ClinicFirebase> clinicDataList = await FireBaseData.clinicData();
-    setState(() {
-      widgests =
-          clinicDataList.map((clinicData) => createWidget(clinicData)).toList();
-    });
+    if (mounted) {
+      setState(() {
+        widgests = clinicDataList
+            .map((clinicData) => createWidget(clinicData))
+            .toList();
+      });
+    }
   }
 
   Widget createWidget(ClinicFirebase clinic) => Padding(
@@ -119,7 +123,7 @@ class _Home_ClinicState extends State<Home_Clinic> {
           },
           child: Container(
             width: MediaQuery.of(context).size.width,
-            height: MediaQuery.of(context).size.height * 0.25,
+            height: MediaQuery.of(context).size.height * 0.27,
             decoration: BoxDecoration(
               gradient: LinearGradient(
                 tileMode: TileMode.clamp,
@@ -129,11 +133,11 @@ class _Home_ClinicState extends State<Home_Clinic> {
                 ],
                 stops: const [0, 1],
                 begin: const AlignmentDirectional(0.1, 3.2),
-                end: const AlignmentDirectional(-0.3, 0.6),
+                end: const AlignmentDirectional(-0.3, 0.1),
               ),
               borderRadius: const BorderRadius.only(
                 bottomLeft: Radius.circular(10),
-                bottomRight: Radius.circular(50),
+                bottomRight: Radius.circular(40),
                 topLeft: Radius.circular(20),
                 topRight: Radius.circular(5),
               ),
@@ -169,7 +173,7 @@ class _Home_ClinicState extends State<Home_Clinic> {
                     alignment: Alignment.topLeft,
                     children: [
                       Text(
-                        "เวลาเปิด :",
+                        tr('app.Time'),
                         style: GoogleFonts.k2d(
                           textStyle: TextStyle(
                             fontSize: 15,
@@ -206,7 +210,7 @@ class _Home_ClinicState extends State<Home_Clinic> {
                     alignment: Alignment.topLeft,
                     children: [
                       Text(
-                        "เวลาปิด :",
+                        tr('app.Time_Out'),
                         style: GoogleFonts.k2d(
                           textStyle: TextStyle(
                             fontSize: 15,
@@ -221,7 +225,7 @@ class _Home_ClinicState extends State<Home_Clinic> {
                           clinic.time_out,
                           style: GoogleFonts.k2d(
                             textStyle: TextStyle(
-                              overflow: TextOverflow.ellipsis,
+                              overflow: TextOverflow.clip,
                               fontSize: 15,
                               fontWeight: FontWeight.w800,
                               color: Theme.of(context).cardColor,

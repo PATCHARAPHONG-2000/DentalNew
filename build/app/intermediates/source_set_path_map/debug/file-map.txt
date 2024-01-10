@@ -1,32 +1,33 @@
-com.example.dental_news.app-jetified-window-java-1.0.0-0 C:\Users\plame\.gradle\caches\transforms-3\0381e0e008ce78f8f1a7070bbacb1611\transformed\jetified-window-java-1.0.0\res
-com.example.dental_news.app-localbroadcastmanager-1.1.0-1 C:\Users\plame\.gradle\caches\transforms-3\0df1c7ae9c47d1d2b929d8bda07e5f40\transformed\localbroadcastmanager-1.1.0\res
-com.example.dental_news.app-jetified-firebase-messaging-23.2.0-2 C:\Users\plame\.gradle\caches\transforms-3\3c7397db6fb47fd11225c45542108ba8\transformed\jetified-firebase-messaging-23.2.0\res
-com.example.dental_news.app-lifecycle-runtime-2.3.1-3 C:\Users\plame\.gradle\caches\transforms-3\3f72585791551b99ffe7042bd9a470de\transformed\lifecycle-runtime-2.3.1\res
-com.example.dental_news.app-jetified-firebase-common-20.3.3-4 C:\Users\plame\.gradle\caches\transforms-3\59e1e372748fafe695505fff588c45a6\transformed\jetified-firebase-common-20.3.3\res
-com.example.dental_news.app-jetified-android-pdf-viewer-3.2.0-beta.3-5 C:\Users\plame\.gradle\caches\transforms-3\5ad5dc18558f3d1967be9206d387dbaf\transformed\jetified-android-pdf-viewer-3.2.0-beta.3\res
-com.example.dental_news.app-jetified-annotation-experimental-1.3.0-6 C:\Users\plame\.gradle\caches\transforms-3\5de110dc71799d3cf665adf3417fdacd\transformed\jetified-annotation-experimental-1.3.0\res
-com.example.dental_news.app-media-1.1.0-7 C:\Users\plame\.gradle\caches\transforms-3\61db730000923996bc35a988c12cac88\transformed\media-1.1.0\res
-com.example.dental_news.app-jetified-play-services-base-18.0.1-8 C:\Users\plame\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\res
-com.example.dental_news.app-jetified-play-services-basement-18.1.0-9 C:\Users\plame\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\res
-com.example.dental_news.app-browser-1.4.0-10 C:\Users\plame\.gradle\caches\transforms-3\c1463af6cb467bf02a2c891016443d37\transformed\browser-1.4.0\res
-com.example.dental_news.app-jetified-window-1.0.0-11 C:\Users\plame\.gradle\caches\transforms-3\cb96762224929cd6e93debdfce8f728c\transformed\jetified-window-1.0.0\res
-com.example.dental_news.app-core-1.10.1-12 C:\Users\plame\.gradle\caches\transforms-3\e73600b7204754fa6eaab4c4f4dd2179\transformed\core-1.10.1\res
-com.example.dental_news.app-debug-13 G:\DentalNews\android\app\src\debug\res
-com.example.dental_news.app-main-14 G:\DentalNews\android\app\src\main\res
-com.example.dental_news.app-google-services-15 G:\DentalNews\build\app\generated\res\google-services\debug
-com.example.dental_news.app-pngs-16 G:\DentalNews\build\app\generated\res\pngs\debug
-com.example.dental_news.app-resValues-17 G:\DentalNews\build\app\generated\res\resValues\debug
-com.example.dental_news.app-rs-18 G:\DentalNews\build\app\generated\res\rs\debug
-com.example.dental_news.app-mergeDebugResources-19 G:\DentalNews\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.example.dental_news.app-mergeDebugResources-20 G:\DentalNews\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.example.dental_news.app-merged_res-21 G:\DentalNews\build\app\intermediates\merged_res\debug
-com.example.dental_news.app-packaged_res-22 G:\DentalNews\build\cloud_firestore\intermediates\packaged_res\debug
-com.example.dental_news.app-packaged_res-23 G:\DentalNews\build\easy_pdf_viewer\intermediates\packaged_res\debug
-com.example.dental_news.app-packaged_res-24 G:\DentalNews\build\firebase_core\intermediates\packaged_res\debug
-com.example.dental_news.app-packaged_res-25 G:\DentalNews\build\firebase_messaging\intermediates\packaged_res\debug
-com.example.dental_news.app-packaged_res-26 G:\DentalNews\build\flutter_local_notifications\intermediates\packaged_res\debug
-com.example.dental_news.app-packaged_res-27 G:\DentalNews\build\flutter_pdfview\intermediates\packaged_res\debug
-com.example.dental_news.app-packaged_res-28 G:\DentalNews\build\path_provider_android\intermediates\packaged_res\debug
-com.example.dental_news.app-packaged_res-29 G:\DentalNews\build\shared_preferences_android\intermediates\packaged_res\debug
-com.example.dental_news.app-packaged_res-30 G:\DentalNews\build\sqflite\intermediates\packaged_res\debug
-com.example.dental_news.app-packaged_res-31 G:\DentalNews\build\url_launcher_android\intermediates\packaged_res\debug
+com.example.dental_news.app-media-1.1.0-0 C:\Users\plame\.gradle\caches\transforms-3\137459cd133bfb3035dc3809fa78805d\transformed\media-1.1.0\res
+com.example.dental_news.app-jetified-android-pdf-viewer-3.2.0-beta.3-1 C:\Users\plame\.gradle\caches\transforms-3\192d92b7dafdd888856f46003ee4ff64\transformed\jetified-android-pdf-viewer-3.2.0-beta.3\res
+com.example.dental_news.app-jetified-play-services-base-18.0.1-2 C:\Users\plame\.gradle\caches\transforms-3\357e9a55cd4583aeecaa8948821c72a1\transformed\jetified-play-services-base-18.0.1\res
+com.example.dental_news.app-jetified-ads-adservices-java-1.0.0-beta05-3 C:\Users\plame\.gradle\caches\transforms-3\52dd3ef417dbc8fe57445b312448193b\transformed\jetified-ads-adservices-java-1.0.0-beta05\res
+com.example.dental_news.app-jetified-play-services-basement-18.1.0-4 C:\Users\plame\.gradle\caches\transforms-3\5c4308be34ab31152dbecb0c4f6ecdd0\transformed\jetified-play-services-basement-18.1.0\res
+com.example.dental_news.app-core-1.10.1-5 C:\Users\plame\.gradle\caches\transforms-3\7b945fa934f35708f632d43f51f76034\transformed\core-1.10.1\res
+com.example.dental_news.app-jetified-play-services-measurement-api-21.5.0-6 C:\Users\plame\.gradle\caches\transforms-3\8d34e9f62408c5e612df93a359e99e03\transformed\jetified-play-services-measurement-api-21.5.0\res
+com.example.dental_news.app-jetified-window-1.0.0-7 C:\Users\plame\.gradle\caches\transforms-3\9a2018b2c705ee502388f574aa9fff68\transformed\jetified-window-1.0.0\res
+com.example.dental_news.app-jetified-ads-adservices-1.0.0-beta05-8 C:\Users\plame\.gradle\caches\transforms-3\a240ec7448ddce3286e950583bea97ca\transformed\jetified-ads-adservices-1.0.0-beta05\res
+com.example.dental_news.app-jetified-core-ktx-1.10.1-9 C:\Users\plame\.gradle\caches\transforms-3\a51ea2e1fc91719de331357ff36a24ac\transformed\jetified-core-ktx-1.10.1\res
+com.example.dental_news.app-jetified-window-java-1.0.0-10 C:\Users\plame\.gradle\caches\transforms-3\b6a335e22c5d490bb26e21388519628a\transformed\jetified-window-java-1.0.0\res
+com.example.dental_news.app-lifecycle-runtime-2.3.1-11 C:\Users\plame\.gradle\caches\transforms-3\b85ab5967c937f0249f6c811cd1ef627\transformed\lifecycle-runtime-2.3.1\res
+com.example.dental_news.app-jetified-annotation-experimental-1.3.0-12 C:\Users\plame\.gradle\caches\transforms-3\bb7946961ae285f9aaaa3c851769df0a\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.dental_news.app-browser-1.5.0-13 C:\Users\plame\.gradle\caches\transforms-3\e9c314c82ffab587bcf67287e2fee0d5\transformed\browser-1.5.0\res
+com.example.dental_news.app-jetified-firebase-common-20.4.2-14 C:\Users\plame\.gradle\caches\transforms-3\eda4bbd0fad746d1c6be4819d209ee2a\transformed\jetified-firebase-common-20.4.2\res
+com.example.dental_news.app-debug-15 F:\Flutter Mobile\DentalNews\android\app\src\debug\res
+com.example.dental_news.app-main-16 F:\Flutter Mobile\DentalNews\android\app\src\main\res
+com.example.dental_news.app-google-services-17 F:\Flutter Mobile\DentalNews\build\app\generated\res\google-services\debug
+com.example.dental_news.app-pngs-18 F:\Flutter Mobile\DentalNews\build\app\generated\res\pngs\debug
+com.example.dental_news.app-resValues-19 F:\Flutter Mobile\DentalNews\build\app\generated\res\resValues\debug
+com.example.dental_news.app-rs-20 F:\Flutter Mobile\DentalNews\build\app\generated\res\rs\debug
+com.example.dental_news.app-mergeDebugResources-21 F:\Flutter Mobile\DentalNews\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.dental_news.app-mergeDebugResources-22 F:\Flutter Mobile\DentalNews\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.dental_news.app-merged_res-23 F:\Flutter Mobile\DentalNews\build\app\intermediates\merged_res\debug
+com.example.dental_news.app-packaged_res-24 F:\Flutter Mobile\DentalNews\build\cloud_firestore\intermediates\packaged_res\debug
+com.example.dental_news.app-packaged_res-25 F:\Flutter Mobile\DentalNews\build\easy_pdf_viewer\intermediates\packaged_res\debug
+com.example.dental_news.app-packaged_res-26 F:\Flutter Mobile\DentalNews\build\firebase_core\intermediates\packaged_res\debug
+com.example.dental_news.app-packaged_res-27 F:\Flutter Mobile\DentalNews\build\flutter_local_notifications\intermediates\packaged_res\debug
+com.example.dental_news.app-packaged_res-28 F:\Flutter Mobile\DentalNews\build\flutter_pdfview\intermediates\packaged_res\debug
+com.example.dental_news.app-packaged_res-29 F:\Flutter Mobile\DentalNews\build\path_provider_android\intermediates\packaged_res\debug
+com.example.dental_news.app-packaged_res-30 F:\Flutter Mobile\DentalNews\build\shared_preferences_android\intermediates\packaged_res\debug
+com.example.dental_news.app-packaged_res-31 F:\Flutter Mobile\DentalNews\build\sqflite\intermediates\packaged_res\debug
+com.example.dental_news.app-packaged_res-32 F:\Flutter Mobile\DentalNews\build\url_launcher_android\intermediates\packaged_res\debug

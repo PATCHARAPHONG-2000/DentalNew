@@ -158,7 +158,7 @@ class _DrawerPangState extends State<DrawerPang> {
                       );
                     },
                     title: Text(
-                      tr('app.knowledge_news'),
+                      tr('app.knowledge'),
                       style: GoogleFonts.k2d(
                         textStyle: const TextStyle(fontSize: 15),
                       ),

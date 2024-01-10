@@ -2,6 +2,7 @@ import 'package:dental_news/Firebase/Toothache.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:line_icons/line_icons.dart';
 
 // ignore: must_be_immutable
 class Toothache_Detel extends StatefulWidget {
@@ -31,6 +32,12 @@ class _Toothache_DetelState extends State<Toothache_Detel> {
       appBar: AppBar(
         title: Text(toothache.name),
         backgroundColor: Theme.of(context).primaryColor,
+        leading: IconButton(
+          icon: Icon(LineIcons.chevronCircleLeft),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
       ),
       body: SingleChildScrollView(
         child: SizedBox(
@@ -40,8 +47,7 @@ class _Toothache_DetelState extends State<Toothache_Detel> {
               children: [
                 ClipRRect(
                   borderRadius: BorderRadius.circular(20),
-                  child: SizedBox(
-                      height: 300, child: Image.network(toothache.image)),
+                  child: Image.network(toothache.image),
                 ),
                 const SizedBox(
                   height: 40,

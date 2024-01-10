@@ -1,5 +1,7 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:line_icons/line_icons.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class Call extends StatefulWidget {
@@ -24,6 +26,12 @@ class _personState extends State<Call> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).primaryColor,
+        leading: IconButton(
+          icon: Icon(LineIcons.chevronCircleLeft),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 10),
@@ -40,7 +48,7 @@ class _personState extends State<Call> {
           ),
         ],
         title: Text(
-          "ติดต่อ",
+          tr("app.call"),
           style: GoogleFonts.k2d(),
         ),
       ),

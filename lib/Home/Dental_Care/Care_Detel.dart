@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:dental_news/Firebase/Data_Care.dart';
+import 'package:line_icons/line_icons.dart';
 
 // ignore: must_be_immutable
 class Care_Detel extends StatefulWidget {
@@ -33,6 +34,12 @@ class _Care_DetelState extends State<Care_Detel> {
       appBar: AppBar(
         title: Text(care_data!.name),
         backgroundColor: Theme.of(context).primaryColor,
+        leading: IconButton(
+          icon: Icon(LineIcons.chevronCircleLeft),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
       ),
       body: SingleChildScrollView(
         child: SizedBox(

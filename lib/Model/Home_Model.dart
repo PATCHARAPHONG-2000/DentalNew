@@ -1,6 +1,7 @@
 import 'package:dental_news/Drawer_Detail/payments.dart';
 import 'package:dental_news/Widget/Dental_Benefitsr.dart';
 import 'package:dental_news/Widget/customer%20rights.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -18,7 +19,7 @@ class Home_Moddel extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 10),
               child: Text(
-                "หมวดหมู่",
+                tr('app.Category'),
                 style: GoogleFonts.k2d(
                   textStyle: const TextStyle(
                     fontSize: 25,
@@ -67,7 +68,7 @@ class Home_Moddel extends StatelessWidget {
                               mainAxisSize: MainAxisSize.min,
                               children: [
                                 Text(
-                                  "ค่าบริการทันตกรรม",
+                                  tr('DS.Dental_service'),
                                   style: GoogleFonts.k2d(
                                     textStyle: TextStyle(
                                       fontSize: 17,
@@ -110,7 +111,7 @@ class Home_Moddel extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Text(
-                                "สิทธิผู้ป่วยทางทันตกรรม",
+                                tr('DPR.Dental_patient_rights'),
                                 style: GoogleFonts.k2d(
                                   textStyle: TextStyle(
                                     fontSize: 17,
@@ -155,7 +156,7 @@ class Home_Moddel extends StatelessWidget {
                               mainAxisSize: MainAxisSize.min,
                               children: [
                                 Text(
-                                  "สิทธิประโยชน์ทางทันตกรรม",
+                                  tr('DB.Dental_Benefits'),
                                   style: GoogleFonts.k2d(
                                     textStyle: TextStyle(
                                       fontSize: 17,

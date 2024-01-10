@@ -1,5 +1,6 @@
 import 'package:dental_news/Firebase/Knowledge.dart';
 import 'package:dental_news/Widget/Knowledge/ViwePDF_Knowledge.dart';
+import 'package:dental_news/utils/utils.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:easy_pdf_viewer/easy_pdf_viewer.dart';
 import 'package:flutter/material.dart';
@@ -65,37 +66,38 @@ class _NewKnowledgeState extends State<NewKnowledge> {
                         image: NetworkImage(newknowledge.image),
                       ),
                       border: Border.all(
-                        width: 3,
+                        width: 2.0,
                         color: Theme.of(context).hoverColor,
                       ),
-                      borderRadius: BorderRadius.circular(30),
+                      borderRadius: BorderRadius.circular(20),
                       color: Colors.white60,
                     ),
                     child: Stack(
                       alignment: Alignment.bottomCenter,
                       children: [
                         Container(
-                          height: 45,
+                          height: 40,
                           width: 400,
-                          decoration: const BoxDecoration(
-                            color: Color.fromARGB(214, 255, 255, 255),
-                            borderRadius: BorderRadius.only(
+                          decoration: BoxDecoration(
+                            color: color.blue,
+                            borderRadius: const BorderRadius.only(
                               topRight: Radius.circular(5),
                               topLeft: Radius.circular(5),
-                              bottomLeft: Radius.circular(27),
-                              bottomRight: Radius.circular(27),
+                              bottomLeft: Radius.circular(17),
+                              bottomRight: Radius.circular(17),
                             ),
                           ),
                           child: Padding(
                             padding: const EdgeInsets.only(
-                              top: 2,
-                              left: 5,
+                              top: 5,
+                              left: 7,
                             ),
                             child: Text(
                               newknowledge.name,
+                              overflow: TextOverflow.ellipsis,
                               style: GoogleFonts.k2d(
-                                color: const Color(0xff38023d),
-                                fontSize: 13.0,
+                                color: color.white,
+                                fontSize: 15.0,
                                 fontWeight: FontWeight.w900,
                               ),
                             ),
@@ -117,11 +119,11 @@ class _NewKnowledgeState extends State<NewKnowledge> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Theme.of(context).primaryColor,
         title: Text(
-          tr('app.knowledge_news'),
+          tr('app.knowledge'),
           style: GoogleFonts.k2d(),
         ),
-        backgroundColor: Theme.of(context).primaryColor,
         leading: IconButton(
           icon: Icon(LineIcons.chevronCircleLeft),
           onPressed: () {
@@ -137,7 +139,7 @@ class _NewKnowledgeState extends State<NewKnowledge> {
             )
           : GridView.extent(
               childAspectRatio: 0.51,
-              crossAxisSpacing: 0.2,
+              crossAxisSpacing: 0.5,
               mainAxisSpacing: 0.1,
               maxCrossAxisExtent: 350,
               children: knowledgewidgests,

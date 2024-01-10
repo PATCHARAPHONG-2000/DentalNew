@@ -3,6 +3,7 @@ import 'package:dental_news/Firebase/Knowledge.dart';
 import 'package:easy_pdf_viewer/easy_pdf_viewer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_cached_pdfview/flutter_cached_pdfview.dart';
+import 'package:line_icons/line_icons.dart';
 
 class ViwePDF_Knowledge extends StatefulWidget {
   final PDFDocument pdfDocument;
@@ -42,12 +43,18 @@ class _ViwePDF_KnowledgeState extends State<ViwePDF_Knowledge> {
       appBar: AppBar(
         backgroundColor: Theme.of(context).primaryColor,
         title: Text(knowledge.name),
+        leading: IconButton(
+          icon: Icon(LineIcons.chevronCircleLeft),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
       ),
       body: PDF().cachedFromUrl(
         knowledge.pdf,
         placeholder: (double progress) => Center(
             child: CircularProgressIndicator(
-          color: color.blue,
+          color: color.app,
         )),
         errorWidget: (dynamic error) => Center(child: Text(error.toString())),
       ),

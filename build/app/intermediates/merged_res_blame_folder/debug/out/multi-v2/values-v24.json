@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.dental_news.app-mergeDebugResources-19:/values-v24/values-v24.xml",
+            "outputFile": "com.example.dental_news.app-mergeDebugResources-21:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\plame\\.gradle\\caches\\transforms-3\\61db730000923996bc35a988c12cac88\\transformed\\media-1.1.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\plame\\.gradle\\caches\\transforms-3\\137459cd133bfb3035dc3809fa78805d\\transformed\\media-1.1.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

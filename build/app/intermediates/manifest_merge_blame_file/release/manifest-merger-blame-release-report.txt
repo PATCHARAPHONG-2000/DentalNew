@@ -1,0 +1,348 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dental_news"
+4    android:versionCode="1001"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:3:7-69
+11-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:3:24-66
+12
+13    <queries>
+13-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:52:5-63:15
+14
+15        <!-- If your app checks for SMS support -->
+16        <intent>
+16-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:54:9-57:18
+17            <action android:name="android.intent.action.VIEW" />
+17-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:55:13-65
+17-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:55:21-62
+18
+19            <data android:scheme="sms" />
+19-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:56:13-42
+19-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:56:19-39
+20        </intent>
+21        <!-- If your app checks for call support -->
+22        <intent>
+22-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:59:9-62:18
+23            <action android:name="android.intent.action.VIEW" />
+23-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:55:13-65
+23-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:55:21-62
+24
+25            <data android:scheme="tel" />
+25-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:56:13-42
+25-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:56:19-39
+26        </intent>
+27    </queries>
+28
+29    <uses-permission android:name="android.permission.VIBRATE" />
+29-->[:flutter_local_notifications] F:\Flutter Mobile\DentalNews\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-66
+29-->[:flutter_local_notifications] F:\Flutter Mobile\DentalNews\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-63
+30    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+30-->[:flutter_local_notifications] F:\Flutter Mobile\DentalNews\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-77
+30-->[:flutter_local_notifications] F:\Flutter Mobile\DentalNews\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-74
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:26:5-79
+31-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:26:22-76
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\c9a350eba8a87002e622cb0b177ee9a9\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:24:5-68
+32-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\c9a350eba8a87002e622cb0b177ee9a9\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:24:22-65
+33    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+33-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\c9a350eba8a87002e622cb0b177ee9a9\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:25:5-79
+33-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\c9a350eba8a87002e622cb0b177ee9a9\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:25:22-76
+34    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+34-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:26:5-110
+34-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:26:22-107
+35
+36    <permission
+36-->[androidx.core:core:1.10.1] C:\Users\plame\.gradle\caches\transforms-3\e73600b7204754fa6eaab4c4f4dd2179\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+37        android:name="com.example.dental_news.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+37-->[androidx.core:core:1.10.1] C:\Users\plame\.gradle\caches\transforms-3\e73600b7204754fa6eaab4c4f4dd2179\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+38        android:protectionLevel="signature" />
+38-->[androidx.core:core:1.10.1] C:\Users\plame\.gradle\caches\transforms-3\e73600b7204754fa6eaab4c4f4dd2179\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+39
+40    <uses-permission android:name="com.example.dental_news.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+40-->[androidx.core:core:1.10.1] C:\Users\plame\.gradle\caches\transforms-3\e73600b7204754fa6eaab4c4f4dd2179\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+40-->[androidx.core:core:1.10.1] C:\Users\plame\.gradle\caches\transforms-3\e73600b7204754fa6eaab4c4f4dd2179\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+41    <!--
+42 Place inside the <queries> element.
+43        <intent>
+44        <action android:name="android.intent.action.VIEW" />
+45        <category android:name="android.intent.category.BROWSABLE" />
+46        <data android:scheme="https" />
+47        
+48        </intent>
+49    -->
+50    <application
+51        android:name="android.app.Application"
+51-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:15:9-42
+52        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+52-->[androidx.core:core:1.10.1] C:\Users\plame\.gradle\caches\transforms-3\e73600b7204754fa6eaab4c4f4dd2179\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+53        android:icon="@mipmap/ic_launcher"
+53-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:16:9-43
+54        android:label="Dental News" >
+54-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:14:9-36
+55        <activity
+55-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:17:9-44:20
+56            android:name="com.example.dental_news.MainActivity"
+56-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:21:13-41
+57            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+57-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:25:13-163
+58            android:exported="true"
+58-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:22:13-36
+59            android:hardwareAccelerated="true"
+59-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:26:13-47
+60            android:launchMode="singleTop"
+60-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:23:13-43
+61            android:showWhenLocked="true"
+61-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:18:13-42
+62            android:theme="@style/LaunchTheme"
+62-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:24:13-47
+63            android:turnScreenOn="true"
+63-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:19:13-40
+64            android:windowSoftInputMode="adjustResize" >
+64-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:27:13-55
+65
+66            <!--
+67                 Specifies an Android theme to apply to this Activity as soon as
+68                 the Android process has started. This theme is visible to the user
+69                 while the Flutter UI initializes. After that, this theme continues
+70                 to determine the Window background behind the Flutter UI.
+71            -->
+72            <meta-data
+72-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:32:13-35:17
+73                android:name="io.flutter.embedding.android.NormalTheme"
+73-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:33:15-70
+74                android:resource="@style/NormalTheme" />
+74-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:34:15-52
+75
+76            <intent-filter>
+76-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:36:13-39:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:37:17-68
+77-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:37:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:38:17-76
+79-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:38:27-74
+80            </intent-filter>
+81            <intent-filter>
+81-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:40:13-43:29
+82                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+82-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:41:17-69
+82-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:41:25-66
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:42:17-76
+84-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:42:27-73
+85            </intent-filter>
+86        </activity>
+87
+88        <meta-data
+88-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:46:9-48:33
+89            android:name="flutterEmbedding"
+89-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:47:13-44
+90            android:value="2" />
+90-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:48:13-30
+91
+92        <service
+92-->[:cloud_firestore] F:\Flutter Mobile\DentalNews\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+93            android:name="com.google.firebase.components.ComponentDiscoveryService"
+93-->[:cloud_firestore] F:\Flutter Mobile\DentalNews\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+94            android:directBootAware="true"
+94-->[com.google.firebase:firebase-common:20.3.3] C:\Users\plame\.gradle\caches\transforms-3\59e1e372748fafe695505fff588c45a6\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:34:13-43
+95            android:exported="false" >
+95-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:68:13-37
+96            <meta-data
+96-->[:cloud_firestore] F:\Flutter Mobile\DentalNews\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+97-->[:cloud_firestore] F:\Flutter Mobile\DentalNews\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-134
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[:cloud_firestore] F:\Flutter Mobile\DentalNews\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+99            <meta-data
+99-->[:firebase_core] F:\Flutter Mobile\DentalNews\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+100                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+100-->[:firebase_core] F:\Flutter Mobile\DentalNews\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[:firebase_core] F:\Flutter Mobile\DentalNews\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:69:13-71:85
+103                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+103-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:70:17-109
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:71:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-firestore:24.8.1] C:\Users\plame\.gradle\caches\transforms-3\7faa95134cba20876326b851bd1d3d45\transformed\jetified-firebase-firestore-24.8.1\AndroidManifest.xml:17:13-19:85
+106                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+106-->[com.google.firebase:firebase-firestore:24.8.1] C:\Users\plame\.gradle\caches\transforms-3\7faa95134cba20876326b851bd1d3d45\transformed\jetified-firebase-firestore-24.8.1\AndroidManifest.xml:18:17-111
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-firestore:24.8.1] C:\Users\plame\.gradle\caches\transforms-3\7faa95134cba20876326b851bd1d3d45\transformed\jetified-firebase-firestore-24.8.1\AndroidManifest.xml:19:17-82
+108            <meta-data
+108-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\c9a350eba8a87002e622cb0b177ee9a9\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:31:13-33:85
+109                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+109-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\c9a350eba8a87002e622cb0b177ee9a9\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:32:17-139
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\c9a350eba8a87002e622cb0b177ee9a9\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:33:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\plame\.gradle\caches\transforms-3\ba6aab4b287f8020360df35c59b7ee3e\transformed\jetified-firebase-installations-17.1.4\AndroidManifest.xml:15:13-17:85
+112                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+112-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\plame\.gradle\caches\transforms-3\ba6aab4b287f8020360df35c59b7ee3e\transformed\jetified-firebase-installations-17.1.4\AndroidManifest.xml:16:17-127
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\plame\.gradle\caches\transforms-3\ba6aab4b287f8020360df35c59b7ee3e\transformed\jetified-firebase-installations-17.1.4\AndroidManifest.xml:17:17-82
+114        </service>
+115
+116        <activity
+116-->[:url_launcher_android] F:\Flutter Mobile\DentalNews\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+117            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+117-->[:url_launcher_android] F:\Flutter Mobile\DentalNews\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+118            android:exported="false"
+118-->[:url_launcher_android] F:\Flutter Mobile\DentalNews\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+119            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+119-->[:url_launcher_android] F:\Flutter Mobile\DentalNews\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+120
+121        <uses-library
+121-->[androidx.window:window:1.0.0] C:\Users\plame\.gradle\caches\transforms-3\cb96762224929cd6e93debdfce8f728c\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+122            android:name="androidx.window.extensions"
+122-->[androidx.window:window:1.0.0] C:\Users\plame\.gradle\caches\transforms-3\cb96762224929cd6e93debdfce8f728c\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+123            android:required="false" />
+123-->[androidx.window:window:1.0.0] C:\Users\plame\.gradle\caches\transforms-3\cb96762224929cd6e93debdfce8f728c\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+124        <uses-library
+124-->[androidx.window:window:1.0.0] C:\Users\plame\.gradle\caches\transforms-3\cb96762224929cd6e93debdfce8f728c\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+125            android:name="androidx.window.sidecar"
+125-->[androidx.window:window:1.0.0] C:\Users\plame\.gradle\caches\transforms-3\cb96762224929cd6e93debdfce8f728c\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+126            android:required="false" />
+126-->[androidx.window:window:1.0.0] C:\Users\plame\.gradle\caches\transforms-3\cb96762224929cd6e93debdfce8f728c\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+127
+128        <activity
+128-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:29:9-46:20
+129            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+129-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:30:13-80
+130            android:excludeFromRecents="true"
+130-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:31:13-46
+131            android:exported="true"
+131-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:32:13-36
+132            android:launchMode="singleTask"
+132-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:33:13-44
+133            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+133-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:34:13-72
+134            <intent-filter>
+134-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:35:13-45:29
+135                <action android:name="android.intent.action.VIEW" />
+135-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:55:13-65
+135-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:55:21-62
+136
+137                <category android:name="android.intent.category.DEFAULT" />
+137-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:42:17-76
+137-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:42:27-73
+138                <category android:name="android.intent.category.BROWSABLE" />
+138-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:39:17-78
+138-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:39:27-75
+139
+140                <data
+140-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:56:13-42
+141                    android:host="firebase.auth"
+142                    android:path="/"
+143                    android:scheme="genericidp" />
+143-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:56:19-39
+144            </intent-filter>
+145        </activity>
+146        <activity
+146-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:47:9-64:20
+147            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+147-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:48:13-79
+148            android:excludeFromRecents="true"
+148-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:49:13-46
+149            android:exported="true"
+149-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:50:13-36
+150            android:launchMode="singleTask"
+150-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:51:13-44
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+151-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:52:13-72
+152            <intent-filter>
+152-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:53:13-63:29
+153                <action android:name="android.intent.action.VIEW" />
+153-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:55:13-65
+153-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:55:21-62
+154
+155                <category android:name="android.intent.category.DEFAULT" />
+155-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:42:17-76
+155-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:42:27-73
+156                <category android:name="android.intent.category.BROWSABLE" />
+156-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:39:17-78
+156-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\plame\.gradle\caches\transforms-3\ca515ea54a32ac81836ab76e5540805e\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:39:27-75
+157
+158                <data
+158-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:56:13-42
+159                    android:host="firebase.auth"
+160                    android:path="/"
+161                    android:scheme="recaptcha" />
+161-->F:\Flutter Mobile\DentalNews\android\app\src\main\AndroidManifest.xml:56:19-39
+162            </intent-filter>
+163        </activity>
+164
+165        <provider
+165-->[com.google.firebase:firebase-common:20.3.3] C:\Users\plame\.gradle\caches\transforms-3\59e1e372748fafe695505fff588c45a6\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
+166            android:name="com.google.firebase.provider.FirebaseInitProvider"
+166-->[com.google.firebase:firebase-common:20.3.3] C:\Users\plame\.gradle\caches\transforms-3\59e1e372748fafe695505fff588c45a6\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:26:13-77
+167            android:authorities="com.example.dental_news.firebaseinitprovider"
+167-->[com.google.firebase:firebase-common:20.3.3] C:\Users\plame\.gradle\caches\transforms-3\59e1e372748fafe695505fff588c45a6\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:27:13-72
+168            android:directBootAware="true"
+168-->[com.google.firebase:firebase-common:20.3.3] C:\Users\plame\.gradle\caches\transforms-3\59e1e372748fafe695505fff588c45a6\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:28:13-43
+169            android:exported="false"
+169-->[com.google.firebase:firebase-common:20.3.3] C:\Users\plame\.gradle\caches\transforms-3\59e1e372748fafe695505fff588c45a6\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:29:13-37
+170            android:initOrder="100" />
+170-->[com.google.firebase:firebase-common:20.3.3] C:\Users\plame\.gradle\caches\transforms-3\59e1e372748fafe695505fff588c45a6\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:30:13-36
+171
+172        <receiver
+172-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:29:9-33:20
+173            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+173-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:30:13-85
+174            android:enabled="true"
+174-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:31:13-35
+175            android:exported="false" >
+175-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:32:13-37
+176        </receiver>
+177
+178        <service
+178-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:35:9-38:40
+179            android:name="com.google.android.gms.measurement.AppMeasurementService"
+179-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:36:13-84
+180            android:enabled="true"
+180-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:37:13-35
+181            android:exported="false" />
+181-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:38:13-37
+182        <service
+182-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:39:9-43:72
+183            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+183-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:40:13-87
+184            android:enabled="true"
+184-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:41:13-35
+185            android:exported="false"
+185-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:42:13-37
+186            android:permission="android.permission.BIND_JOB_SERVICE" />
+186-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\plame\.gradle\caches\transforms-3\1dc98e173c4c17f0e6827d4bfdd02b27\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:43:13-69
+187
+188        <activity
+188-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\plame\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+189            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+189-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\plame\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+190            android:exported="false"
+190-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\plame\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+191            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+191-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\plame\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+192
+193        <meta-data
+193-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\plame\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+194            android:name="com.google.android.gms.version"
+194-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\plame\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+195            android:value="@integer/google_play_services_version" />
+195-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\plame\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+196    </application>
+197
+198</manifest>

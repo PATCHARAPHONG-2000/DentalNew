@@ -1,7 +1,7 @@
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:dental_news/Home/Dental_Care/Home_Care.dart';
 import 'package:dental_news/Home/Home_Toothache/Home_Toothache.dart';
-import 'package:dental_news/Model/Profile.dart';
+import 'package:dental_news/Model/Support.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';
